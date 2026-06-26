@@ -225,7 +225,6 @@ Total sales at risk across Cancelled + Failed + Returned + Refunded = **₹48,04
 All screenshots are rendered from actual dataset values and are located in `outputs/`.
 
 ### `raw_data_preview.png` — Raw dataset before cleaning
-![Raw Data Preview](raw_data_preview.png)
 
 Shows `raw_orders.xlsx` with highlighted data quality issues:
 - 🔴 Red cells — invalid values (negative discount, bad status, ship before order, duplicate rows)
@@ -236,7 +235,6 @@ Shows `raw_orders.xlsx` with highlighted data quality issues:
 ---
 
 ### `cleaned_data_preview.png` — Cleaned dataset with calculated columns
-![Cleaned Data Preview](cleaned_data_preview.png)
 
 Shows `cleaned_orders.xlsx` after all 6 tasks:
 - **Navy columns** — original 21 columns, standardised
@@ -247,14 +245,12 @@ Shows `cleaned_orders.xlsx` after all 6 tasks:
 ---
 
 ### `pivot_summary_1.png` — P1: Sales by Region + P4: Margin by Segment
-![Pivot Summary 1](pivot_summary_1.png)
 
 Left panel: P1 — 5 regions sorted by total sales descending; colour-scaled profit margin column (green = highest, red = lowest). Bar chart inset showing relative regional sales. Right panel: P4 — 3 customer segments sorted by average margin descending; donut chart showing order share per segment.
 
 ---
 
 ### `pivot_summary_2.png` — P6: Monthly Trend + P5: Non-Revenue by Region
-![Pivot Summary 2](pivot_summary_2.png)
 
 Left panel: P6 — 24-month sales trend (Jan 2024 – Dec 2025) with MoM growth % colour-coded green (gain) / red (decline). Right panel: P5 — non-revenue orders filtered to Cancelled, Failed, Returned, Refunded; broken down by region and status with business rule references.
 
